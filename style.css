@@ -293,7 +293,7 @@ ul li a:hover::before {
     align-items: flex-start; 
   }
   .accordion {
-    background: linear-gradient(200deg, rgb(29, 145, 252) 13.57%, rgb(90, 54, 192) 98.38%);
+    background: linear-gradient(200deg, rgb(0, 204, 255) 13.57%, rgb(0, 0, 0) 98.38%);
     width: 100%;
     max-width: 500px;
     margin: 10px;
@@ -304,13 +304,13 @@ ul li a:hover::before {
     flex-direction: column;
   }
   .accordion:nth-child(2) {
-    background: linear-gradient(200deg, rgb(242, 136, 133) 13.57%, rgb(233, 79, 102) 98.38%);
+    background: linear-gradient(200deg, rgb(0, 204, 255) 13.57%, rgb(0, 0, 0) 98.38%);
   }
   .accordion:nth-child(3) {
-    background: linear-gradient(200deg, rgb(101, 187, 118) 13.57%, rgb(70, 111, 171) 98.38%);
+    background: linear-gradient(200deg, rgb(0, 204, 255) 13.57%, rgb(0, 0, 0) 98.38%);
   }
   .accordion:nth-child(4) {
-    background: linear-gradient(200deg, #c215d1 13.57%, #9813a1 98.38%);
+    background: linear-gradient(200deg, rgb(0, 204, 255) 13.57%, rgb(0, 0, 0) 98.38%);
   }
   .image-container {
     flex: 1;
@@ -812,7 +812,7 @@ textarea:focus {
     }
 }
 @keyframes pulse {
-    0% {
+    0% { 
       -moz-box-shadow: 0 0 0 0 #77dd77;
       box-shadow: 0 0 0 0 #77dd77;
     }
